@@ -1,0 +1,741 @@
+.main {
+	width: 2246px;
+	margin: 0 auto;
+}
+
+.top_gg {
+	width: 2246px;
+	float: left;
+}
+
+.top_shou {
+	width: 2106px;
+	height: 47px;
+	float: left;
+	background: url(../img/bg_1.gif) repeat-x;
+	padding:0  70px;
+}
+.top_shou li{
+	float: left;
+}
+
+.shou_left{
+	float: left;
+	width: 500px;
+	height:47px;
+	line-height: 47px;
+}
+
+.sc {
+	color: #666666;
+}
+
+.shou_left li{
+	margin-right:25px ;
+}
+
+.shou_left img{
+	margin-top: 15px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.app{
+	background: url(../img/iphone.gif) left center no-repeat ;
+	text-indent: 1em;
+	color:#f55800;
+}
+
+.login{
+	color: blue;
+}
+
+.shou_right{
+	width: 650px;
+	float: right;
+	height: 47px;
+	line-height: 47px;
+	font-size: 18px;
+}
+
+.shou_right li{
+	margin-right: 25px;
+	
+}
+
+.shou_right img{
+	margin-top: 15px;
+	border: 1px solid red;
+}
+.shou_right a{
+	color: black;
+}
+
+.you{
+	width: 150px;
+	background: url(../img/img_1.gif) left center no-repeat; 
+	text-indent: 2em;
+	cursor: pointer;
+}
+
+.youhui{
+	min-height: 30px;
+	border: 1px solid #888888;
+	background: white;
+	width: 150px;
+	display: none;
+	position: relative;
+	top: 45px;
+}
+
+.you:hover .youhui{
+	display: block;
+}
+
+.search{
+	background: url(../img/img_2.gif) left center no-repeat; 
+	text-indent: 2em;
+}
+
+.one{
+	background: url(../img/img_3.gif) left center no-repeat; 
+	text-indent: 2em;
+}
+
+/* .help{
+	background: url(../img/img_5.gif) right center no-repeat; 
+} */
+
+.help a:hover{
+	color: red;
+}
+
+.top_input{
+	width: 2106px;
+	height: 188px;
+	float: left;
+	padding:0 70px;
+}
+
+.left_img {
+	float: left;
+	width: 474px;
+	height: 188px;
+}
+
+.input{
+	padding-top:45px;
+	width: 1115px;
+	float: left;
+	height: 143px;
+}
+
+.input_1{
+	width: 700px;
+	height: 50px;
+	border: 3px solid #b91318;
+}
+
+.input_2{
+	
+	border-top: 3px solid #b91318;
+	border-right: 3px solid #b91318;
+	border-bottom: 3px solid #b91318;
+}
+.box_input1{
+	float: left;
+}
+.box_input2{
+	float: left;
+}
+
+
+.input_top{
+	height: 60px;
+}
+.top_bto{
+	float: left;
+	width:835px ;
+	height: 20px;
+	line-height: 20px;
+}
+.top_bto li{
+	float: left;
+	margin-left: 15px;
+}
+
+.top_bto a{
+	color:#bbbbbb;
+}
+
+.top_bto span{
+	color:#ff9156;
+}
+
+.input_right{
+	width: 226px;
+	height: 128px;
+	float: left;
+	line-height: 128px;
+	padding: 30px;
+	
+}
+
+.dao{
+	padding: 0 70px;
+	float: left;
+	width: 2106px;
+	height: 50px;
+	line-height: 50px;
+	background: #db0d17;
+}
+
+.dao li{
+	padding:0  40px;
+	float: left;
+	margin-right: 40px;
+	font-weight: bold;
+	padding:0  10px;
+	font-size: 20px;
+}
+
+.show:hover .sa{
+	display: block;
+}
+
+.sa{
+	background: white;
+	min-height: 200px;
+	width: 245px;
+	text-align: center;
+	position: relative;
+	display: none;
+	left: -30px;
+	top: -20px;
+	border-right: 1px solid red;
+	border-left: 1px solid red;
+	border-bottom: 1px solid red;
+}
+.sa p{
+	widows: 165px;
+	padding:0  40px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #888888;
+	
+	
+}
+
+.huanqiu{
+	background: url(../img/bg_5.gif) 50px center no-repeat;
+	border-bottom: 2px solid #f1f1f1;
+	}
+	
+.meirong{
+	background: url(../img/bg_6.gif) 50px center no-repeat;
+	border-bottom: 2px solid #f1f1f1;
+	}
+.fuzhuang {
+	background: url(../img/bg_7.gif) 50px center no-repeat;
+	border-bottom: 2px solid #f1f1f1;
+}
+.jiaju {
+	background: url(../img/bg_8.gif) 50px center no-repeat;
+	border-bottom: 2px solid #f1f1f1;
+}
+.dianqi{
+	background: url(../img/bg_9.gif) 50px center no-repeat;
+	border-bottom: 2px solid #f1f1f1;
+}
+.shipin{
+	background: url(../img/bg_10.gif) 50px center no-repeat;
+}
+
+
+.da{
+	width: 185px;
+	padding: 0 30px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.da:hover{
+	background: #bc0000;
+}
+
+.da:hover .sa {
+	display: block;
+}
+
+.dao a{
+	color: white;
+}
+
+.dao li:hover{
+	background: #bc0000;
+}
+
+.buy_top{
+	float: left;
+	height: 110px;
+	padding:0 100px;
+	width: 2046px;
+	vertical-align: middle;
+}
+ 
+.buy_top p{
+	font-size: 40px;
+	background: url(../img/buy_1.gif) left center no-repeat;
+	text-indent: 1em;
+	color:#666666;
+}
+
+.buy_box{
+	float: left;
+	width: 2046px;
+	height: 50px;
+	padding: 0 100px;
+}
+
+.buy_box li{
+	float: left;
+	line-height: 50px;
+	padding: 0px 15px;
+	font-size: 22px;
+}
+
+.buy_box li img{
+	vertical-align: middle; 
+	margin-right: 15px;
+}
+
+.buy_box li:nth-of-type(1){
+	width: 530px;
+	height: 50px;
+	background:#faa419 ;
+	color: white;
+}
+
+.buy_box li:nth-of-type(3){
+	width: 530px;
+	background: #efefef;
+	height: 50px;
+}
+
+.buy_box li:nth-of-type(5){
+	width: 530px;
+	background: #efefef;
+	height: 50px;
+}
+
+.tishi{
+	width: 2046px;
+	float: left;
+	height: 155px;
+	padding:0 100px;
+}
+
+.tishi p{
+	color: red;
+	font-size: 23px;
+}
+
+.tishi span{
+	color:#666666;
+}
+
+.tishi b{
+	color:#d66a1d;
+}
+
+#static{
+	float: left;
+	padding: 10px;
+	width: 135px;
+	height: 50px;
+	color: white;
+	background: red;
+	border: 0;
+}
+
+.buy_car{
+	float: left;
+	width: 2046px;
+	height: 550Wpx;
+	margin: 0 100px;
+	border: 1px solid #efefef;
+}
+
+.shoucang{
+	padding: 0 100px;
+	margin-top: 30px;
+	float: left;
+	width: 2046px;
+	min-height: 80px;
+	
+}
+
+.shoucang_top{
+	float: left;
+	width: 2006px;
+	padding: 20px;
+	min-height: 30px;
+	background:#efefef;
+	
+}
+
+.buy_car_top{
+	width: 2016px;
+	height: 55px;
+	background:#efefef;
+	line-height: 55px;
+	padding: 0 15px;
+	
+}
+
+.buy_car_top span{
+	color:#9d9d9d;
+}
+
+.buy_car li{
+	float: left;
+	font-size: 20px;
+	margin-right:20px;
+	text-align: center;
+	color:#6f6f6f;
+}
+
+.check{
+	width: 20px;
+	height: 20px;
+}
+
+.check2{
+	width: 20px;
+	height: 20px;
+}
+
+.buy_car li:nth-of-type(1){
+	width: 20px;
+}
+
+.buy_car li:nth-of-type(2){
+	width: 200px;
+}
+
+.buy_car li:nth-of-type(3){
+	width: 500px;
+}
+
+.buy_car li:nth-of-type(4){
+	width: 100px;
+}
+
+.buy_car li:nth-of-type(5){
+	width: 100px;
+}
+.buy_car li:nth-of-type(6){
+	width: 200px;
+	
+}
+.buy_car li:nth-of-type(7){
+	width: 100px;
+}
+.buy_car li:nth-of-type(8){
+	width: 100px;
+}
+
+.buy_car li:nth-of-type(9){
+	width: 100px;
+}
+
+.buy_car li:nth-of-type(10){
+	width: 200px;
+}
+
+.buy_car_box{
+	float: left;
+	width: 2006px;
+	height: 120px;
+	border-bottom: 1px solid #efefef;
+	padding: 20px;
+}
+
+.buy_car_box li:nth-of-type(1){
+	line-height: 120px;
+}
+
+.buy_car_box li:nth-of-type(2) div{
+	float: left;
+	width: 128px;
+	height: 128px;
+	border: 1px solid #efefef;
+}
+
+.buy_car_box li:nth-of-type(3){
+	text-align: left;
+}
+
+.buy_car_box li:nth-of-type(9){
+	text-decoration: line-through;
+}
+
+.buy_car_box li:nth-of-type(10){
+	color: red;
+}
+
+
+.buy_car_tong{
+	float: left;
+	height: 195px;
+	width: 2006px;
+	padding: 20px;
+	color:#7a7a7a;
+}
+
+.buy_car_tong_top{
+	float: right;
+	height: 100px;
+	width: 2046px;
+}
+
+.buy_car_tong_top dd{
+	margin-right: 15px;
+}
+
+.buy_car_tong_top dl{
+	margin-right: 90px;
+}
+
+.buy_car_tong_bto{
+	float: left;
+	height: 95px;
+	width: 2006px;
+	padding: 20px;
+}
+
+.bto_left{
+	float: left;
+	height: 95px;
+	width: 935px;
+	line-height: 30px;
+}
+
+.bto_left a{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #797979;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.bto_right{
+	float: right;
+	width: 1070px;
+	height: 95px;
+}
+
+.bto_right span{
+	color: red;
+	text-decoration: line-through;
+}
+
+.bto_right dl{
+	float: right;
+	margin-right: 90px;
+	font-size: 20px;
+}
+
+.bto_right dd:nth-of-type(1){
+	text-align: center;
+}
+
+.bto_right dd:nth-of-type(2){
+	font-weight: bold;
+}
+
+.bto_right b{
+	font-size: 30px;
+	color: red;
+}
+
+
+.buy_car_suan{
+	float: left;
+	height: 60px;
+	width: 2006px;
+	background:#efefef;
+	padding: 20px;
+}
+
+
+.buy_car_suan .aa{
+	float: left;
+	width: 125px;
+	height: 40px;
+	background: white;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color:#666666;
+}
+
+.price{
+	width: 45px;
+	height: 21px;
+	text-align: center;
+	border-left: none;
+	border-right: none;
+	border: 1px solid #999999;
+}
+
+.buy_car_box .a{
+	height: 25px;
+	border: 1px #999999 solid;
+	width: 25px;
+	text-align: center;
+}
+
+.buy_car_suan .aaa{
+	background: #df222b;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 195px;
+	height: 65px;
+	float: right;
+	line-height: 65px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bto {
+	border-top:2px solid #bc0000;
+	float: left;
+	width: 2026px;
+	height: 1000px;
+	padding: 0px 110px;
+}
+
+.bto_sh {
+	width: 2026px;
+	float: left;
+	height: 330px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.bto_sh img{ 
+	float: left;
+	width: 500px;
+	height: 245px;
+}
+
+.bto_box{
+	padding: 40px 0 0 25px;
+	float: left;
+	width: 215px;
+	height: 205px;
+	
+}
+
+.bto_box li:nth-of-type(1){
+	font-size: 25px;
+	font-weight: bold;
+	color: #666666;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #f0f0f0;
+}
+
+.bto_box li:nth-of-type(2){
+	padding-top: 15px;
+	}
+
+.bto_box a{
+	text-decoration: none;
+	color:#858585;
+	font-size: 20px;
+}
+
+.bto_box li{
+	padding-bottom: 5px;
+}
+
+
+.tu {
+	float: left;
+	height: 200px;
+	width: 2026px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.tu_box{
+	float: left;
+	width: 230px;
+	height:200px;
+	text-align: center;
+}
+
+.box_1{
+	float: left;
+	width: 110px;
+	height: 75px;
+	padding: 25px 60px 0px 60px;
+}
+
+
+.tu_box li:nth-of-type(1){
+	font-size: 30px;
+	font-weight: bold;
+	}
+
+
+.tu_box li:nth-of-type(2){
+		font-size: 20px;
+		color:#999999;
+}
+
+.tu_box ul{
+	float: left;
+	width: 230px;
+	height: 110px;
+	margin-top: 20px;
+}
+
+
+.ul{
+	width: 2026px;
+	float: left;
+	height: 455px;
+	text-align: center;
+}
+
+.ul a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.ul span{
+	font-size: 20px;
+}
