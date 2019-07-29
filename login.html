@@ -21,12 +21,13 @@
 						<div class="load">
 							<div class="load_top">
 								用户登录
+								<a style="float: right;color: white;" href="Xm2.html">还没有账号？前去注册</a>
 							</div>
 							<div class="load_bto">
-								<form action="BaoShui.html" method="get" id="myform">
+								<form action="#" method="get" id="myform">
 									<table>
 										<tr><td class="name">会员号:</td></tr>
-										<tr><td><input type="text" name="" id="uers" value="" class="input"  required="required"/></td></tr>
+										<tr><td><input type="text" name="" id="uers" value="" class="input"  required="required" /></td></tr>
 										<tr><td class="name">密码:</td></tr>
 										<tr><td><input type="password" name="" id="pass" value="" class="input"  required="required"/></td></tr>
 										<tr><td><input type="submit" value="立即登录" class="input_img" ><a href="" style="margin-left: 20px; font-size: 20px;">忘记密码？</a></td></tr>
@@ -69,19 +70,20 @@
 				$("#myform").submit(function(){
 					var name=$("#uers").val();
 					var pass=$("#pass").val();
-					if(name!=123){
-							alert("会员号错误");
-						return false;
-					}
-					if(pass!=123){
-						alert("密码错误");
-						return false;
-					}
-					return true;
+					$.ajax({
+						dataType:'json',//服务器返回json格式数据
+						type:'get',//HTTP请求类型
+						url:'ajax/ajax.html',
+						success:function(data){
+							if(name==data[1].name&&pass==data[1].pass){
+								window.location.href="BaoShui.html";
+							}else if(name!=data[1].name||pass!=data[1].pass){ 
+								alert("账户or密码输入错误！");
+							}
+						}
+					});
 				})
 			})
 		</script>
-		
-		
 	</body>
 </html>

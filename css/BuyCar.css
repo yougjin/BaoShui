@@ -739,3 +739,10 @@ li a{
 .ul span{
 	font-size: 20px;
 }
+
+h3 img{
+	vertical-align: middle;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}

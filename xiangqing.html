@@ -162,7 +162,15 @@
 										<li style="margin-top: 20px;">包邮条件：	满<span style="padding:0 20px; color: black;">1</span>件包邮</li>
 									</ul>
 									<div class="jia">
-										<span style="cursor: pointer;" onclick="alert('加入成功')">加入购物车</span> 			<a href="">立即购买</a>   <img src="img/gold_11.gif"  style="vertical-align: middle;">
+										<span style="cursor: pointer;">加入购物车</span>
+										<div class="jiaru" onclick="location.href='BuyCar.html'">
+											加入成功! <br> 前往购物车吧!
+										</div>
+										<a href="">立即购买</a>   
+										<img src="img/gold_11.gif"  style="vertical-align: middle;" >
+										<div class="img_1">
+											<img src="img/gold_13.gif" alt="" >
+										</div>
 									</div>
 								</div>
 							</div>
@@ -427,6 +435,14 @@
 				$("gold_right_top a").click(function(){
 					$("gold_right_top li").css("background","white");
 				})
+				$(".jia span").click(function(){
+					$(".jiaru").css("display","block");
+				})
+				$(".jiaru").mouseout(function(){
+					$(".jiaru").css("display","none");
+				})
+				
+				
 			})
 		</script>
 	</body>
